@@ -4,6 +4,14 @@
 }
 
 
+body {
+    margin: 0 auto;
+
+}
+
+.inner-container {
+    max-width: 768px;
+}
 
 .logo-container {
     display: flex;
@@ -51,7 +59,6 @@
 .goat {
     font-size: 3.8rem;
     margin: 0;
-    width: 100%;
     background: linear-gradient(175deg, rgba(249, 72, 178, 1) 0%, rgba(135, 88, 241, 1) 95%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -60,7 +67,14 @@
 }
 
 .play {
-    font-size: 1.8rem;
+    font-size: 2rem;
+}
+
+.play-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .btn {
@@ -110,11 +124,18 @@
     align-items: center;
     justify-content: center;
     gap: 0.3rem;
+    margin-bottom: 1rem;
 
 }
 
 .margin {
     margin-top: 1rem;
+}
+
+.padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
 }
 
 .games-btn {
@@ -130,17 +151,18 @@
 }
 
 .games-btn img {
-    height: 2rem;
+    height: 1.5rem;
 }
 
 .games-btn p {
     margin: 0;
     padding: 0;
-    font-size: .7rem;
+    font-size: .5rem;
 }
 
 .games-btn:hover {
     border: 2px solid #FF42A5;
+    color: #FF42A5;
 }
 
 .logo-accent {
@@ -151,9 +173,180 @@
     padding: 25px 0;
 }
 
+
 .grid {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
+}
+
+.outer {
+    background-color: #0B0223;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.custom-color {
+    color: #FF42A5;
+}
+
+.img1 {
+    max-width: 55%;
+    position: relative;
+    top: 0;
+    right: 2rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.second-image {
+    position: relative;
+    width: 40%;
+    bottom: 5rem;
+    left: 12rem;
+    border: 0.2px solid red;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-items-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 100%;
+
+    }
+
+    .banner-inner-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card-container {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .footer-link-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .grid {
+        width: 20%;
+    }
+
+
+
+    .flex-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .inner {
+        max-width: 1260px;
+        margin: 0 auto;
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav-items-container {
+        gap: 1rem;
+    }
+
+    .relative-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .image-container {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+    .img1 {
+        max-width: 80%;
+        position: relative;
+        top: 0;
+        right: 2rem;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .second-image {
+        position: relative;
+        margin: 0;
+        width: 20%;
+        bottom: 13rem;
+        left: 35rem;
+        border: 0.2px solid red;
+        border-radius: 5px;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .width-0 {
+        height: 10rem;
+    }
+
+    .hidden {
+        display: flex;
+        align-items: center;
+        gap: 0.2rem;
+        justify-content: center;
+        padding: 5px;
+        border-radius: 2.3rem;
+        border: 2px solid white;
+    }
 }
