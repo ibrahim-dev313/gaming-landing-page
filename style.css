@@ -1,0 +1,159 @@
+* {
+
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.nav-items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.follow-container {
+    gap: 15px;
+    background-color: lightgrey;
+    padding: 0px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner-img {
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goat {
+    font-size: 3.8rem;
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(175deg, rgba(249, 72, 178, 1) 0%, rgba(135, 88, 241, 1) 95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.play {
+    font-size: 1.8rem;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.sign-in {
+    color: white;
+    padding: 10px 20px;
+    background-color: #FF42A5;
+    border-radius: 2.3rem;
+    font-weight: 700;
+}
+
+
+
+.rogue {
+    color: white;
+    padding: 10px 20px;
+    background-color: #4EC5F7;
+    border-radius: 2.3rem;
+    font-weight: 700;
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: .7rem;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+}
+
+.margin {
+    margin-top: 1rem;
+}
+
+.games-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 2.3rem;
+    border: 2px solid white;
+
+
+}
+
+.games-btn img {
+    height: 2rem;
+}
+
+.games-btn p {
+    margin: 0;
+    padding: 0;
+    font-size: .7rem;
+}
+
+.games-btn:hover {
+    border: 2px solid #FF42A5;
+}
+
+.logo-accent {
+    color: #FF42A5;
+}
+
+.social {
+    padding: 25px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
