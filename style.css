@@ -68,6 +68,7 @@ body {
 
 .play {
     font-size: 2rem;
+    margin: 0;
 }
 
 .play-container {
@@ -75,6 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 8rem;
 }
 
 .btn {
